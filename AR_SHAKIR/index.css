@@ -53,7 +53,7 @@ select{
     line-height: 75px;
     padding-bottom: 2%;
 }
-.text_info h4{
+.text_info h4, .learn h4{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -92,7 +92,7 @@ select{
     line-height: 160%;
     color: #8593A3;
 }
-.brands, .services{
+.brands, .services, .learn{
     text-align: center;
     justify-content: center;
     display: flex;
@@ -107,7 +107,7 @@ select{
 .brands div img{
     height: 23px;
 }
-.services h2{
+.services h2, .learn h2{
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
@@ -119,4 +119,13 @@ select{
     margin-left: 30vw;
     margin-bottom: -80vh;
     position: absolute;
+}
+.learn_process{
+    position: relative;
+}
+.learn img{
+    max-width: 60px;
+}
+.learn h4{
+    padding: 0 28%;
 }
