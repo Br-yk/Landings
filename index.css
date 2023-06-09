@@ -5,18 +5,19 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(135deg, #d7d2f0, #c8c1e7);
+    background: #fff;
 }
 #loader{
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background: #d8cbcb;
 }
 #body{
     display: none; 
     width: 100% !important;
+    display: flex;
+    flex-direction: column;
 }
 .loader_text{
     font-family: 'Press Start 2P', cursive;
@@ -61,15 +62,14 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    background: #ffffff;
+    align-items: center;
     padding: 1.5% 4%;
     width: 100%;
-    background: linear-gradient(to bottom, white, #d0c9f1);
 }
 .header_txt{
     font-family: 'Press Start 2P', cursive;
     font-size: 16px;
-    color: #7c0172;
+    color: #EC5D2A;
 }
 .icons a{
     background: #ecf0f3;
@@ -84,8 +84,8 @@ body{
     transition: all 0.3s;
     box-shadow: -3px -3px 7px #ffffff,
                 3px 3px 5px #ceced1;
-  }
-  .icons a:hover:before{
+}
+.icons a:hover:before{
     content: "";
     position: absolute;
     top: 0;
@@ -96,8 +96,8 @@ body{
     background: #ecf0f3;
     box-shadow: inset -3px -3px 7px #ffffff,
                 inset 3px 3px 5px #ceced1;
-  }
-  .icons a i{
+}
+.icons a i{
     position: relative;
     z-index: 3;
     text-align: center;
@@ -105,10 +105,10 @@ body{
     height: 100%;
     font-size: 15px;
     line-height: 10px;
-  }
-  .icons a:hover i{
+}
+.icons a:hover i{
     transform: scale(0.9);
-  }
+}
 .icons a.fb i, .icons a.twitter i, .icons a.insta i, .icons a.git i, .icons a.yt i{
-    color: orangered;
+    color: #EC5D2A;
 }
